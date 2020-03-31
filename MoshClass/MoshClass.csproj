@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amazon\Amazon.csproj" />
+    <ProjectReference Include="..\Extensibility\Extensibility.csproj" />
+    <ProjectReference Include="..\Interface\POSInterface.csproj" />
+    <ProjectReference Include="..\Polymorphism\Polymorphism.csproj" />
+    <ProjectReference Include="..\Shapes\Shapes.csproj" />
+    <ProjectReference Include="..\Stack\Exercise1.csproj" />
+    <ProjectReference Include="..\Stopwatch\Exercise3.csproj" />
+    <ProjectReference Include="..\WorkFlow\Exercise2.csproj" />
+  </ItemGroup>
+
+</Project>
